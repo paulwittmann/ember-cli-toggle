@@ -1,5 +1,4 @@
 import Ember from 'ember';
-import layout from './template';
 
 const {
   on,
@@ -9,7 +8,6 @@ const {
 } = Ember;
 
 export default Ember.Component.extend({
-  layout: layout,
   tagName: 'span',
   disabled: false,
   isToggled: computed.oneWay('toggled'),
